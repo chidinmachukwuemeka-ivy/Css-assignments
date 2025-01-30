@@ -1,0 +1,211 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #F7FDFC;
+    padding: 0px 15px;
+
+}
+
+label{
+    color: #011C34;
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-weight: 600;
+}
+
+.header{
+    background-color: #F7FDFC;
+    padding: 20px 0px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.para1 p{
+    color: #737373;
+    line-height: 25px;
+
+}
+
+.form-container{
+    background-color: white;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 60px #0000000f;
+    border-radius: 10px;
+
+
+}
+
+.inputcont{
+    border: 1px solid #69696928;
+    padding:  10px 7px;
+    border-radius:2px;
+    cursor: pointer;
+
+}
+
+.inputcont:hover{
+    border-color: #2EC4B6;
+    outline: none;
+}
+
+.inputstyle{
+    outline: none;
+    border: none;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 12px;
+    color: #A6A6A6;
+    cursor: pointer;
+}
+
+.button{
+    background-color: #2EC4B6;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.btn{
+    color: white;
+    text-decoration: none;
+}
+
+.footnote{
+    margin-top: 15px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footnote_desktop{
+    display: none;
+}
+
+
+span{
+color: #2EC4B6;
+text-decoration: underline;
+}
+
+input::placeholder{
+    color: #737373;
+    font-size: 12px;
+}
+
+@media (min-width:800px) {
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content:space-evenly;
+        height: 100vh;
+        padding: 0 120px;
+    }
+
+    .imgcont img{
+        width: 110px;
+    }
+
+    label{
+        margin-top: 15px;
+        margin-bottom:10px;
+        font-weight: 500;
+        color: black;
+    }
+
+    .para1 p{
+        width: 80%;
+    }
+
+    .form-container{
+        min-width:400px;
+        max-width:600px;
+        display: flex;
+        flex-direction:column;
+        padding-top: 230px;
+        padding-inline: 35px;
+        width: 40%;
+        box-shadow: 0px 0px 20px #0000002c;
+    }
+
+   
+
+    .inputcont{
+        border: 1px solid #69696933;
+        padding:  10px 12px;
+
+    }
+
+    .inputstyle{
+        outline: none;
+        border: none;
+        background-color:transparent;
+    }
+
+   
+
+    .username{
+        /* background-color: red; */
+        position: relative;
+        bottom: 220px;
+
+    }
+
+    .genderbirth{
+        position: relative;
+        bottom: 150px;
+    }
+
+    .WH{
+        position: relative;
+        bottom: 75px;
+    }
+
+    .gender, .weight, .lastname{
+        position: absolute;
+        right: 0;
+        width: 47%;
+    }
+
+    .birth, .height, .firstname{
+        position: absolute;
+        left: 0;
+        width: 47%;
+
+    }
+
+    .button{
+        margin-top: 30px;
+        padding: 10px 15px;
+
+    }
+    .footnote{
+        display: none;
+    }
+
+    .footnote_desktop{
+        display: block;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
