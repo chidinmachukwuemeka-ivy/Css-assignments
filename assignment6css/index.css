@@ -1,0 +1,712 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+   
+}
+
+.bgcolor{
+    position: absolute;
+    width:100%;
+    height: 8%;
+    z-index: 0;
+    background-image: linear-gradient(to right, #d605053e , #0678083b, #eac81f92);
+    filter: blur(300px);
+    /* border-bottom: 3px solid green; */
+}
+
+.navbar{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* background-color: red; */
+    padding: 7px 0;
+}
+
+.imgcont{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.imgcont img{
+    width: 155px;
+}
+
+.navlist ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* .navlist ul{
+    list-style: none;
+} */
+
+.navlist ul li{
+    font-size: 18px;
+    color: #141414;
+    cursor: pointer;
+}
+
+.navlist ul li:hover{
+    color: #0065FE;
+}
+
+.navlist ul .item1 , .login .btn{
+    color: #0065FE;
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+}
+
+.item2 .icon{
+    font-size: 12px;
+    color: #1414146a;
+    margin-left: 5px;
+}
+
+.moreopt{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login .btn , .trialbtn{
+ font-size: 16px;
+ transition: 2s;
+ cursor: pointer;
+}
+
+.login .btn:hover{
+    padding: 10px 30px;
+    border-radius:40px;
+    background-color: #0065FE;
+    color: white;
+}
+
+.trialbtn{
+    padding: 10px 30px;
+    border-radius:40px;
+    background-color: #0065FE;
+    color: white;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.headertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-size: 48px;
+    color: #141414;
+}
+
+.upper_h3{
+    margin-bottom: 40px;
+}
+
+h3 span{
+    color: #0065FE;
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+    width: 53%;
+    line-height: 28px;
+    color: #141414;
+    margin-top: 10px;
+}
+
+.herobuttons{
+    margin-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    width: 20%;
+    color: #0065FE;
+}
+.herobuttons .signup_btn{
+    padding: 10px 40px;
+    border-radius:40px;
+    background-color: #0065FE;
+    color: white;
+}
+
+.boxcont{
+    position: relative;
+    margin-left: 15%;
+    top: 20px;
+    z-index:1;
+}
+
+.chainimg{
+    position: absolute;
+    left: 60px;
+    top: 35px;
+    z-index:1;
+
+
+}
+
+.chainimg img{
+    width:320px;
+
+}
+
+.rect{
+    position: relative;
+    height: 210px;
+    width: 690px;
+    border: 0.5px solid #005AE2;
+    border-radius: 24px;
+    text-align: center;
+    background-image: linear-gradient(to right,#E2E9F0, white, white);
+    z-index:1;
+
+}
+
+.para2{
+    position: absolute;
+    transform: translate(50%, 0%);
+    right: 50%;
+    bottom: 35px;
+    width:50%;
+    color: #141414;
+    line-height: 24px;
+    /* background-color: red; */
+    z-index:1;
+
+}
+
+.para2 span{
+    font-weight: bold;
+}
+
+.vector2{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    z-index: 0;
+
+}
+
+.vector2 img{
+    width: 230px;
+}
+
+.stage{
+    margin-top: 90px;
+}
+
+.stage img{
+    width: 100%;
+}
+
+.stage_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    background-color: #F9FBFD;
+    margin-top: -4px;
+    padding-block: 30px;
+}
+
+
+.text h3{
+    font-size: 40px;
+}
+
+
+
+.chart{
+    display: flex;
+    align-items:baseline;
+    gap: 30px;
+}
+
+.chart_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:143px;
+}
+
+.figure span{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.info span{
+    font-size: 16px;
+    display: block;
+}
+
+.cont2{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.box1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headtext{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.headtext h3{
+    font-size: 40px;
+}
+
+.para3{
+    width: 300px;
+    line-height: 25px;
+}
+
+.box2{
+    margin-bottom: 50px;
+}
+
+.box2 .innerbox{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    align-items: center;
+    /* margin-top: -38px; */
+    margin-bottom: 50px;
+}
+
+.iconcont img{
+    width: 40px;
+}
+
+.innerheadtext{
+    margin-bottom: 15px;
+
+}
+
+.innerheadtext span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.iconcont{
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+
+.extra_style{
+    width:500px;
+    text-align: center;
+}
+
+.pricecardcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricecards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 20px 0;
+    height:500px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    padding-inline:30px;
+    padding-top:20px;
+    padding-bottom: 40px;
+    border: 0.5px solid #005AE2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card .type{
+    font-size: 24px;
+}
+
+.card .header{
+    font-size: 40px;
+    margin-block: 10px;
+
+}
+
+.cards .title{
+    font-size: 20px;
+}
+
+.benefits ul li{
+    font-size: 14px;
+    /* list-style: none; */
+    margin-top: 20px;
+}
+
+li .icon{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #005AE2;
+}
+
+.card1{
+   border-right: none;
+}
+
+.card3{
+    border-left: none;
+}
+
+.card1:hover ,.card2:hover , .card3:hover{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border: none;
+    border-radius:10px;
+    background-color:#1E3448;
+    color: white;
+}
+
+.card1:hover .benefits ul .icon , .card2:hover .benefits ul .icon , .card3:hover .benefits ul .icon{
+    color: white;
+}
+
+.card_buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.btn_one{
+    border: 0.5px solid #005AE2;
+    padding:10px 20px;
+    border-radius: 20px;
+    color: #005AE2;
+}
+
+.btn_two{
+    background-color: #005AE2;
+    padding:10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.form_cont{
+    position: relative;
+    height: 400px;
+    background-color: #1E3448;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.form{
+    position: relative;
+    background-color: white;
+    padding-inline: 40px;
+    padding-top: 20px;
+    padding-bottom:40px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.svg1{
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+
+.svg2{
+    position: absolute;
+    right:0;
+    z-index: 0;
+}
+
+.svg1 img, .svg2 img{
+    width:750px;
+}
+
+.inputcont{
+    border: 0.5px solid #005AE2;
+    border-radius: 10px;
+    padding:15px 20px;
+    margin-top: 20px;
+}
+
+.inputcont input{
+    border: none;
+    outline: none;
+}
+
+.inputcont input::placeholder{
+    color:#4991FF;
+    font-size: 12px;
+}
+
+.inputbox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form .button{
+    padding: 15px 20px;
+    background-color: #005AE2;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.form .button span .icon{
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.form_text p{
+    width:350px;
+    font-size: 14px;
+    color:#4991FF;
+    line-height: 20px;
+}
+
+.form_text p span{
+    font-weight: bold;
+}
+
+.faq{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 200px;
+    /* background: red; */
+}
+
+.faq .title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.faq .title span{
+    font-size: 40px;
+}
+
+.questions{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.questions ul li {
+    padding-top: 10px;
+    padding-bottom:20px;
+
+}
+
+.questions ul .line{
+    border-bottom: 1px solid #D6D6D6;
+}
+.questions ul li .icon{
+    color: #141414;
+}
+
+.head_writeup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #141414;
+}
+
+.sub_writeup{
+    line-height: 30px;
+}
+
+.svg4{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.svg5{
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+.mixbg{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:299px;
+    align-items: center;
+    justify-content: center;
+    background-color:#1E3448;
+}
+
+.mixbg_text{
+    font-size: 40px;
+    color: white;
+}
+
+.mixbg_btn{
+    padding:10px 40px;
+    background-color: #005AE2;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+.svg6{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.svg7{
+    position: absolute;
+    bottom:-4px;
+    right:0;
+}
+
+.svg6 img, .svg7 img{
+    width:550px;
+}
+
+
+
+.footer{
+    position: relative;
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footerlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 28px;
+}
+
+.resource_cont{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.resource{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    /* justify-content: center; */
+    gap: 60px;
+    /* border: 1px solid green; */
+
+
+}
+
+.resourcetitle{
+    font-weight: bold;
+}
+
+.resource_list ul{
+    margin-top: 10px;
+}
+
+.resource_list ul li{
+    margin-bottom: 5px;
+}
+
+.svg8{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.svg9{
+    position: absolute;
+    bottom: -20px;
+    right:0;
+}
+
+.svg8 img, .svg9 img{
+    width: 460px;
+}
+
+.moreoptions{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+
+}
+
+.moreoptions span{
+    border-right: 1.3px solid black;
+    padding-inline: 10px;
+    font-size: 14px;
+}
+
+.moreoptions .last{
+    border-right: none;
+}
