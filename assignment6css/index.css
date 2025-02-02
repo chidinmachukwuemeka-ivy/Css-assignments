@@ -21,7 +21,6 @@ li{
     z-index: 0;
     background-image: linear-gradient(to right, #d605053e , #0678083b, #eac81f92);
     filter: blur(300px);
-    /* border-bottom: 3px solid green; */
 }
 
 .navbar{
@@ -30,14 +29,12 @@ li{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    /* background-color: red; */
     padding: 7px 0;
 }
 
 .imgcont{
     display: flex;
     align-items: center;
-    /* background-color: red; */
 }
 .imgcont img{
     width: 155px;
@@ -49,9 +46,6 @@ li{
     gap: 30px;
 }
 
-/* .navlist ul{
-    list-style: none;
-} */
 
 .navlist ul li{
     font-size: 18px;
@@ -196,7 +190,6 @@ h3 span{
     width:50%;
     color: #141414;
     line-height: 24px;
-    /* background-color: red; */
     z-index:1;
 
 }
@@ -303,7 +296,6 @@ h3 span{
     align-items: center;
     gap: 30px;
     align-items: center;
-    /* margin-top: -38px; */
     margin-bottom: 50px;
 }
 
@@ -323,7 +315,6 @@ h3 span{
 
 .iconcont{
     margin-bottom: 15px;
-    /* background-color: red; */
 }
 
 .extra_style{
@@ -342,7 +333,6 @@ h3 span{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
     padding: 20px 0;
     height:500px;
 }
@@ -375,7 +365,6 @@ h3 span{
 
 .benefits ul li{
     font-size: 14px;
-    /* list-style: none; */
     margin-top: 20px;
 }
 
@@ -522,7 +511,6 @@ li .icon{
     margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 200px;
-    /* background: red; */
 }
 
 .faq .title{
@@ -538,7 +526,6 @@ li .icon{
 
 .questions{
     width: 50%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -649,7 +636,6 @@ li .icon{
 }
 
 .resource_cont{
-    /* border: 1px solid blue; */
     display: flex;
     align-items: flex-start;
     gap: 70px;
@@ -659,10 +645,7 @@ li .icon{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    /* justify-content: center; */
     gap: 60px;
-    /* border: 1px solid green; */
-
 
 }
 
